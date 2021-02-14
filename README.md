@@ -1,1 +1,0 @@
-# News_paper_activity
