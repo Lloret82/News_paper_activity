@@ -1,13 +1,16 @@
+/* Background color old news paper, justified text */
 body {
   background: rgb(243, 223, 193);
   text-align: justify;
 }
+/* font family used for the whole page */
 h1,
 h2,
 h3,
 p {
   font-family: georgia, serif;
 }
+
 .subtitle{
   margin-top: -50px;
   color: rgb(143, 141, 141);
@@ -33,11 +36,10 @@ p {
     border-right: 1px solid #BEB8B8;
     margin-right: 6px;
     position: relative;
-    
+/* It works and I don't know why (twice column3 class selector) */
     }
     .column3 {
         width: 544px;
-        /* float: right; */
         padding-right: 6px;
         border-right: 1px solid #BEB8B8;
         margin-right: 6px;
