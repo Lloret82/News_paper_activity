@@ -1,5 +1,6 @@
 /* Background color old news paper, justified text */
 body {
+  
   background: rgb(243, 223, 193);
   text-align: justify;
 }
@@ -10,6 +11,7 @@ h3,
 p {
   font-family: georgia, serif;
 }
+
 
 .subtitle{
   margin-top: -50px;
@@ -29,15 +31,41 @@ p {
   margin: 0 0 58px 0;
   border-bottom: 1px solid gray;
 }
-.column1, .column2, .column3 {
+section{
+  display: flex;
+}
+.column1{
+   
     width: 544px;
-    float: left;
+    /* float: left; */
+    flex-grow: 0;
     padding-right: 6px;
     border-right: 1px solid #BEB8B8;
     margin-right: 6px;
     position: relative;
 /* It works and I don't know why (twice column3 class selector) */
     }
+    .column2{
+      
+      width: 544px;
+      /* float: left; */
+      flex-grow: 1;
+      padding-right: 6px;
+      border-right: 1px solid #BEB8B8;
+      margin-right: 6px;
+      position: relative;
+  /* It works and I don't know why (twice column3 class selector) */
+      }
+      .column3 {
+        width: 544px;
+        flex-grow: 2;
+        padding-right: 6px;
+        border-right: 1px solid #BEB8B8;
+        margin-right: 6px;
+        position: relative;
+    /* It works and I don't know why (twice column3 class selector) */
+        }
+
     .column3 {
         width: 544px;
         padding-right: 6px;
